@@ -9,4 +9,7 @@ ls *.jar
 java -jar nameofjar
 
 To run the project using the spring boot maven plugin:
-./mvnw spring-boot:run
+./mvnw spring-boot: run
+
+#Injecting Values in application.properties:
+Define custom values using the "application.properties" file and inject value using the "@Value" annotation.
